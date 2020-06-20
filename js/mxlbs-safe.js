@@ -1,4 +1,4 @@
-//禁用右键（防止右键查看源代码） 
+//禁用右键 
 window.oncontextmenu = function() {
     return false;
 }
@@ -12,6 +12,7 @@ window.onkeydown = window.onkeyup = window.onkeypress = function() {
 */
 
 //如果用户在工具栏调起开发者工具，那么判断浏览器的可视高度和可视宽度是否有改变，如有改变则关闭本页面跳转百度
+/*
 var h = window.innerHeight,
 w = window.innerWidth;
 window.onresize = function() {
@@ -20,6 +21,7 @@ window.onresize = function() {
         window.location = "https://www.baidu.com/";
     }
 }
+*/
 
 //禁止复制页面文字
 window.addEventListener('keydown',
