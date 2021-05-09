@@ -1,5 +1,5 @@
  $(function(){
-        if(/*getCookie('msg') !=*/ 1){
+        if(getCookie('msg') != 1){
             var t = document.createElement("a");
             t.href = document.referrer;
             var msgTitle = t.hostname;
